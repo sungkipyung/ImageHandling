@@ -14,6 +14,7 @@
 		52B5DA8B1B2C0D260026C78E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B5DA8A1B2C0D260026C78E /* Images.xcassets */; };
 		52B5DA8E1B2C0D260026C78E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B5DA8C1B2C0D260026C78E /* LaunchScreen.xib */; };
 		52B5DA9A1B2C0D260026C78E /* SampleCodeForImageHandlingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B5DA991B2C0D260026C78E /* SampleCodeForImageHandlingTests.m */; };
+		52E7B2ED1B2C146F001FFF1D /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E7B2EC1B2C146F001FFF1D /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		52B5DA931B2C0D260026C78E /* SampleCodeForImageHandlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCodeForImageHandlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B5DA981B2C0D260026C78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B5DA991B2C0D260026C78E /* SampleCodeForImageHandlingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleCodeForImageHandlingTests.m; sourceTree = "<group>"; };
+		52E7B2EC1B2C146F001FFF1D /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E7B2ED1B2C146F001FFF1D /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		52B5DA711B2C0D250026C78E = {
 			isa = PBXGroup;
 			children = (
+				52E7B2EC1B2C146F001FFF1D /* Photos.framework */,
 				52B5DA7C1B2C0D250026C78E /* SampleCodeForImageHandling */,
 				52B5DA961B2C0D260026C78E /* SampleCodeForImageHandlingTests */,
 				52B5DA7B1B2C0D250026C78E /* Products */,
@@ -416,6 +420,7 @@
 				52B5DA9F1B2C0D260026C78E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52B5DAA01B2C0D260026C78E /* Build configuration list for PBXNativeTarget "SampleCodeForImageHandlingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				52B5DAA21B2C0D260026C78E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
